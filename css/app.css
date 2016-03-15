@@ -5855,4 +5855,11 @@ body {
   height: 50px;
   vertical-align: middle; }
 
+@media (max-width: 768px) {
+  .plus-con {
+    margin-left: 10px; } }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .plus-con {
+    margin-left: 20px; } }
+
 /*# sourceMappingURL=app.css.map */
