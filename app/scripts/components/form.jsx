@@ -28,13 +28,13 @@ var AddForm = React.createClass({
     var imageAdd = this.$el.serializeObject();
     this.props.collection.create(imageAdd);
     $('.form-con').toggle("medium", function(){
-      $('.form-con').removeClass('hidden');
+      $('.form-con').addClass('hidden');
     });
   },
   clear: function(e){
     e.preventDefault();
     $('.form-con').toggle("medium", function(){
-      $('.form-con').removeClass('hidden');
+      $('.form-con').addClass('hidden');
     });
   },
   render: function(){

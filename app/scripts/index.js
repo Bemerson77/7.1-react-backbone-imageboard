@@ -9,11 +9,11 @@ var Backbone = require('backbone');
 // local
 var model = require('./models/image');
 var AddForm = require('./components/form.jsx');
-var feed = require('./components/listing.jsx');
+var Feed = require('./components/listing.jsx');
 
 
 var images = new model.ImagesCollection();
-var ImageItems = feed.ImageItems;
+var ImageItems = Feed.ImageItems;
 
 
   ReactDOM.render(
