@@ -17,14 +17,15 @@ var ImageItems = Feed.ImageItems;
 
 
   ReactDOM.render(
-    <AddForm collection={images} />,
+    React.createElement(AddForm, {collection: images}),
     document.getElementById('form')
   );
 
 
 images.fetch().done(function(){
   ReactDOM.render(
-    <ImageItems collection={images} />,
+    // <ImageItems collection={images} />,
+    React.createElement(ImageItems, {collection: images}),
     document.getElementById('images')
   );
 });
