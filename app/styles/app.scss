@@ -1,0 +1,118 @@
+$container-large-desktop: (750px);
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: rgba(237, 238, 239, 1)
+}
+
+.page-header {
+  border-bottom: 0;
+  margin: 0;
+  padding-bottom: 0;
+  height: 55px;
+  background-color: rgba(66, 74, 85, 1);
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+
+}
+
+.plus-con {
+  height: 52px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 40px;
+  margin-left: 100px;
+
+}
+
+#plus {
+  line-height: 52px;
+  color: white;
+}
+
+
+.form-con {
+  background-color: white;
+  margin: 0;
+  border-bottom: 2px solid rgba(228, 228, 228, 1);
+  position: fixed;
+  width: 100%;
+  z-index: 90000;
+
+}
+
+.add-form {
+  height: 355px;
+
+}
+
+.form-group {
+  margin-top: 20px;
+  border-radius: none;
+}
+
+.url-form {
+  margin-top: 100px;
+}
+
+.btn-con {
+  display: inline-block;
+  float: right;
+}
+
+#submit-btn {
+  background-color: rgba(0, 171, 82, 1);
+  border: 1px solid rgba(0, 160, 73, 1);
+  color: white;
+
+}
+
+#cancel-btn {
+  background-color: rgba(182, 182, 182, 1);
+  color: white;
+
+}
+
+.img-body {
+  background-color: rgba(224, 225, 226, 1);
+  border-right: 2px solid rgba(204, 205, 206, 1);
+  border-left: 2px solid rgba(204, 205, 206, 1);
+}
+
+.images {
+  margin-top: 20px;
+  padding: 0;
+
+}
+
+.caption-con {
+  border-top: 1px solid rgba(204, 205, 206, 1);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: white;
+  height: 50px;
+}
+
+.img-caption {
+  margin: 0;
+  padding-top: 15px;
+  height: 50px;
+  vertical-align: middle;
+}
